@@ -1,17 +1,18 @@
-# eco_habitos
+# EcoHábitos
 
-A new Flutter project.
+App em Flutter para registrar hábitos sustentáveis e acompanhar quanto CO2 foi evitado.
 
-## Getting Started
+Autor: Gustavo Steven Lima Sousa
+Atividade: OAT Unidade 2 - Desenvolvimento Mobile Híbrido
 
-This project is a starting point for a Flutter application.
+## O que o app faz
+- Lista de hábitos sustentáveis: adicionar, concluir e remover.
+- Os dados ficam salvos no celular (shared_preferences).
+- Contador de CO2 evitado e meta semanal de 5 kg.
+- Segunda tela com o resumo do impacto e uma dica do dia.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Como rodar
+1. Instale o Flutter.
+2. Na pasta do projeto, rode: flutter pub get
+3. Para testar no Chrome: flutter run -d chrome
+4. Para gerar o APK: flutter build apk
